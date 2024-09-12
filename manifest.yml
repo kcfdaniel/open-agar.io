@@ -1,10 +1,10 @@
 ---
 applications:
-- name: agar-clone
+- name: open-agario
   memory: 512M
   disk_quota: 1G
   buildpack: nodejs_buildpack
-  host: agar-clone
+  host: open-agario
   domain: mybluemix.net
   timeout: 180
   env:
